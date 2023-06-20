@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+body {
+  background-color: aqua;
+  height: 100vh;
+
+  background-color: aqua;
+  height: 100vh;
+  background: linear-gradient(to top right, rgb(243, 0, 0), rgb(112, 0, 240)),
+    linear-gradient(to top right, rgb(255, 137, 129), rgb(0, 240, 0));
+  /* background: radial-gradient(rgba(235, 0, 0, 0), rgba(13, 23, 83, 0)); */
+}
+.container {
+  height: 30rem;
+  width: 50rem;
+  background-color: bisque;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-family: "roboto";
+  border-radius: 9px;
+  position: relative;
+}
+section {
+  width: 50%;
+}
+.player0 {
+  text-align: center;
+  background-color: rgba(211, 92, 118, 0.494);
+  font-size: 1.6rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.player1 {
+  text-align: center;
+  background-color: rgba(168, 20, 114, 0.474);
+  font-size: 1.6rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.player {
+  padding-top: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.8rem;
+}
+.total {
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  color: rgba(201, 16, 35, 0.761);
+}
+.corrent {
+  height: 6rem;
+  width: 10rem;
+  background-color: rgba(201, 16, 35, 0.761);
+  border-radius: 12px;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.885);
+}
+.c {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.c0 {
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+  font-weight: 300;
+}
+.ngame,
+.rdice,
+.hold {
+  border-radius: 50rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: rgba(240, 248, 255, 0.871);
+  z-index: 1;
+  transform: translate(-50%);
+  position: absolute;
+}
+.ngame {
+  height: 2.5rem;
+  width: 8rem;
+  left: 50%;
+  top: 5%;
+}
+.rdice {
+  height: 2.5rem;
+  width: 8rem;
+  left: 50%;
+  bottom: 30%;
+}
+.hold {
+  height: 2rem;
+  width: 5rem;
+  left: 50%;
+  bottom: 20%;
+}
+.dicec {
+  text-transform: uppercase;
+  font-weight: 500;
+  /* z-index: 2; */
+}
+.dice {
+  height: 2.9rem;
+  width: 2.9rem;
+  color: black;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  /* justify-self: center; */
+  /* justify-items: center; */
+  padding-bottom: 3rem;
+  /* z-index: 2; */
+}
+.fa-solid {
+  height: 88rem;
+  width: 4rem;
+  z-index: 11;
+  font-size: 3rem;
+  transform: translateY(-5px);
+  transform: translateX(1.5px);
+  z-index: 5;
+}
+.emo {
+  font-size: 1.2rem;
+}
+
+li {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+.winner {
+  background-color: rgb(61, 30, 30);
+}
+/* .ontop {
+  z-index: 50;
+} */
